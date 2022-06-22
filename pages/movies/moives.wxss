@@ -1,0 +1,45 @@
+/* pages/movies/moives.wxss */
+.moivesContanier{
+  display: flex;
+  padding: 20rpx;
+}
+.moiveImg{
+  width: 132rpx;
+  height: 198rpx;
+  overflow: hidden;
+}
+.moive_detail{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 20rpx;
+}
+.moive_name{
+  font-size: 32rpx;
+  color: #336699;
+}
+.movie_year{
+  font-size: 28rpx;
+  color: #666;
+  margin: 18rpx 0;
+}
+.movie_description{
+  width: 480rpx;
+  height: 15%;
+  font-size: 28rpx;
+  color: #666;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+.movie_votes{
+  font-size: 28rpx;
+  color: #666;
+  margin: 18rpx 0;
+}
+.movie_rating{
+  font-size: 40rpx;
+  color: red;
+  font-weight: bold;
+  margin-top: -12rpx;
+}

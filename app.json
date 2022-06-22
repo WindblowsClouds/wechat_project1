@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/detial/detail",
+    "pages/movies/moives",
+    "pages/movieDetali/movieDetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8ED145",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": " Net Literature",
+    "backgroundColor": "#7fb80e",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "音乐",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/moives",
+        "text": "电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  }
+}

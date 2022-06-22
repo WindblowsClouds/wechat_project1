@@ -1,0 +1,30 @@
+/* pages/movieDetali/movieDetail.wxss */
+.moiveDetailContanier{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.moive_detailImg{
+  width: 320rpx;
+  height: 480rpx;
+  margin: 25rpx 0;
+}
+.moive_detailName{
+  font-size: 45rpx;
+  color: #333;
+  font-weight: bold;
+  margin: 25rpx 0;
+}
+.moive_detailRating{
+  color: aquamarine;
+}
+.moive_detailDescription{
+  width: 90%;
+  margin: 15rpx 0;
+}
+button{
+  width: 80%;
+  background-color: #78cdd1;
+}

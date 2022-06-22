@@ -1,0 +1,14 @@
+<!--pages/movieDetali/movieDetail.wxml-->
+<view class="moiveDetailContanier">
+<image class="moive_detailImg" src="{{movieDetail.poster}}"></image>
+<text class="moive_detailName">{{movieDetail.name}} {{movieDetail.originalName}}</text>
+<text class="moive_detailAlias">又名:{{movieDetail.alias}}</text>
+<text class="moive_detailGenre">类型:{{movieDetail.genre}}</text>
+<text class="moive_detailCountry">制品国家/地区：{{movieDetail.country}}</text>
+<text class="moive_detailLanguage">语言:{{movieDetail.language}}</text>
+<text class="moive_detailDate">上映时间：{{movieDetail.dateReleased}}</text>
+
+<text class="moive_detailRating">评分：{{movieDetail.doubanRating}} -- {{movieDetail.imdbVotes}}人评价</text>
+<text class="moive_detailDescription">剧情简介：{{movieDetail.description}}</text>
+<button>我要观影</button>
+</view>

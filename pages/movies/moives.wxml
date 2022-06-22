@@ -1,0 +1,14 @@
+<!--pages/movies/moives.wxml-->
+<view wx:for="{{moviesArr}}" wx:key="index">
+  <view class="moivesContanier" catchtap="handleMovieDetail" data-index="{{index}}" data-item="{{item}}">
+<image class="moiveImg" src='{{item.poster}}'></image>
+<view class="moive_detail">
+<text class="moive_name">{{item.name}}</text>
+<text class="movie_year">{{item.year}}/{{item.country}}/{{item.genre}}</text>
+<text class="movie_description">{{item.description}}</text>
+<text class="movie_votes">{{item.imdbVotes}} 人评价</text>
+</view>
+<text class="movie_rating">{{item.doubanRating}}</text>
+
+</view>
+</view>

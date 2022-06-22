@@ -1,0 +1,24 @@
+/* pages/index/index.wxss */
+page{
+  height: 100%;
+  background-color:#8ED145 ;
+}
+.idnexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userName{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin: 400rpx 0;
+}
+.goStudy{
+  width: 220rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 1rpx solid #999;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+}

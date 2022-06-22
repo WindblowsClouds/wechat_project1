@@ -1,0 +1,39 @@
+/* pages/template/list-template.wxss */
+.tmpContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+
+}
+.avatar_date image{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.avatar_date text{
+  font-size: 32rpx;
+}
+.company{
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  margin: 10rpx;
+}
+.contentImg{
+  width: 100%;
+  height: 460rpx;
+}
+.content{
+  font-size: 32rpx;
+  text-indent: 32rpx;
+}
+.collection_love image{
+  width: 50rpx;
+  height: 50rpx;
+  margin: 20rpx;
+  vertical-align: middle;
+}
+.collection_love text{
+  font-size: 32rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="idnexContainer">
+
+<text class="userName">热爱生活，感受每一种美好！！！</text>
+<view class="goStudy">
+<text catchtap="enterHome" >开启热爱之旅!!!</text>
+</view>
+</view>
