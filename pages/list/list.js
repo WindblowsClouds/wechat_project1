@@ -20,7 +20,6 @@ Page({
   },
   //点击跳转详情页
   toDetail(event){
-    console.log(event);
     let index=event.currentTarget.dataset.index
     wx.navigateTo({
       url: '/pages/detial/detail?index='+index,

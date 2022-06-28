@@ -18,7 +18,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    console.log(appDatas);
     //获取参数索引,由list.js:url传递
     let index = options.index
     //更新data中detailObj状态
@@ -28,7 +27,6 @@ Page({
     })
     //根据本地缓存数据判断用户是否收藏
     let detailCollectionStorage=wx.getStorageSync('isCollected')
-    console.log(detailCollectionStorage);
     //缓存中初始化key:isCollected,避免出现错误
     if(!detailCollectionStorage){
       wx.setStorageSync('isCollected', {})
@@ -65,7 +63,6 @@ Page({
     wx.getStorage({
       key: 'isCollected',
       success: (datas) => {
-        
         console.log(datas);
         let status = datas.data
         status[index] = isCollected
@@ -76,10 +73,7 @@ Page({
             console.log('缓存成功');
           }
         })
-
-
       }
-
     });
   
   },

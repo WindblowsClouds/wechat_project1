@@ -4,7 +4,8 @@
     "pages/list/list",
     "pages/detial/detail",
     "pages/movies/moives",
-    "pages/movieDetali/movieDetail"
+    "pages/movieDetali/movieDetail",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarBackgroundColor": "#8ED145",
@@ -30,6 +31,12 @@
       {
         "pagePath": "pages/movies/moives",
         "text": "电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "我的",
         "iconPath": "/images/tab/dianying.png",
         "selectedIconPath": "/images/tab/dianying_hl.png"
       }

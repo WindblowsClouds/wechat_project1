@@ -1,0 +1,12 @@
+<!--pages/login/login.wxml-->
+<view class="myContanier">
+  <view class="my_userInfo">
+    <image wx:if="{{!noLogin}}" src="{{userInfo.avatarUrl}}"></image>
+    <text class="login_name">{{noLogin?"请登录":userInfo.nickName}}</text>
+  </view>
+
+    <text class="list my_movie">我的电影</text>
+    <text class="list my_yinyue">我的音乐</text>
+    <text class="list my_collection">我的收藏</text>
+  <button bindtap="handleLogin">{{noLogin?'微信一键登录':'退出登录'}}</button>
+</view>

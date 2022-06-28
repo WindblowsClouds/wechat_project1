@@ -1,0 +1,35 @@
+/* pages/login/login.wxss */
+page{
+  height: 100%;
+  background-color:aquamarine ;
+}
+.myContanier{
+  display: flex;
+  flex-direction: column;
+}
+.my_userInfo{
+  height: 240rpx;
+  position: relative;
+  background-color: aquamarine;
+}
+.my_userInfo image{
+  width: 125rpx;
+  height: 125rpx;
+  border: 1rpx solid #00ae9d;
+  border-radius: 125rpx;
+  margin: 45rpx;
+}
+.login_name{
+  position: absolute;
+  top: 55rpx;
+  font-weight: bold;
+}
+.list{
+  background-color: #fff;
+  margin-top: 10rpx;
+  padding: 25rpx;
+}
+button{
+  margin-top: 250rpx;
+  color: #00ae9d;
+}
